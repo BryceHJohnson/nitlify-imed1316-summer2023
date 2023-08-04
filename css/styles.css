@@ -1,0 +1,128 @@
+@import "global.css";
+@import "main.css";
+
+.fa-row {
+  background-color: #215be2 !important;
+  padding: 20px;
+}
+
+.fa-row-icon {
+  font-size: 15px;
+  color: #ffffff;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.fa-row-icon:hover  {
+  transform: scale(1.1);
+}
+
+.login-btn {
+  font-size: 35px;
+}
+
+.container-one { 
+  background-color: #ffeedc00;
+}
+
+
+.fa-row {
+  color: #ffffff;
+  font-weight: bolder;
+  text-transform: none;
+  text-decoration: none;
+}
+
+.first-paragraph-div {
+  /* box-shadow: var(--boxShadow) !important; */
+  position: relative;
+  background-color: #fffffd
+  color: black;
+  font-family: "Dancing Script", cursive;
+  font-size: 24px;
+  padding: 10px;
+  height: auto;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.first-paragraph-img {
+  position: relative;
+  float: left;
+  padding-right: 18px;
+}
+
+@media (max-width: 900px) {
+  .first-paragraph-img {
+    width: 100%;
+    float: none;
+    padding-right: 0px;
+  }
+}
+
+.cropped {
+  width: 200px;
+  height: 200px;
+  margin-top: 15px;
+  border: 10px solid var(--secondaryColor) !important;
+  clip-path: circle(50.0% at 50% 50%);
+border-radius: 50%;
+}
+
+
+
+
+.card {
+  margin: 15px;
+}
+
+.btn-isotope,
+.btn-isotope:hover {
+  color: #ffffff;
+  border-radius: 9px;
+}
+
+.second-paragraph-div {
+  position: relative;
+  background-color: #fffffd
+  color: black;
+  font-family: "Dancing Script", cursive;
+  font-size: 24px;
+  padding: 20px;
+  height: auto;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.second-paragraph-img {
+  position: relative;
+  float: right;
+  padding-left: 18px;
+}
+
+@media (max-width: 900px) {
+  .second-paragraph-img {
+    width: 100%;
+    float: none;
+    padding-left: 0px;
+  }
+}
+
+/*slick slider http://kenwheeler.github.io/slick/ */
+.slider-container {
+  background-color: #ffebd538;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+ }
+ .main-slider {
+  width: 95%;
+  display: auto;
+  margin: 0 auto;
+ }
+ .cuadro {
+  margin: 10px;
+ } 
